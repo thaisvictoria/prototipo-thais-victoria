@@ -7,7 +7,6 @@
 @font-face {
     font-family: 'Inter', sans-serif;
     src: url(fonts/Inter/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
-    font-weight: normal;
     font-style: normal;
 }
 
@@ -57,7 +56,7 @@ header{
 
 .titulos-nav a{
     color: var(--azul-clarinho);
-    font-weight: medium;
+    font-weight: 500;
     font-family: 'inter', sans-serif;
 }
 
@@ -82,5 +81,163 @@ header{
 
 .titulo-sobre{
     color: var(--vermelho);
+    font-family: 'inter', sans-serif;
+    font-weight: 'SemiBold';
+
+}
+
+.titulo-sobre{
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    margin-top: 61px;
+}
+
+.titulo-pag{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+}
+
+.paragrafo-titulo{
+    width: 780px;
+    height: 82px;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--azul-clarinho);
+    margin-bottom: 96px;
     text-align: center;
+ 
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 32px;
+
+
+}
+
+.num-grid{
+    font-size: 60px;
+    color: var(--vermelho);
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    margin-bottom: 12px;
+    font-style: normal;
+}
+
+.text-grid{
+    font-family: 'inter', sans-serif;
+    font-weight: medium;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-style: normal;
+}
+
+.p-grid{
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--azul-clarinho);
+    line-height: 24px;
+    font-style: normal;
+}
+
+.grid-item{
+    width: 260px;
+    height: 192px;
+    margin-bottom: 96px;
+}
+
+.divul-vagas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.p-vagas{
+    width: 125px;
+    height: 28px;
+    background-color: #8e242417;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--vermelho);
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 100px;
+    margin-top: 96px;
+}
+
+.search-talent{
+    font-family: 'inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.sub-title-vagas{
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    color: var(--azul-clarinho);
+    font-size: 20px;
+   margin-bottom: 64px;
+}
+
+.img-office{
+    width: 1216px;
+    height: 400px;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vagas{
+    margin-top: 64px;
+}
+
+.tipo-vaga{
+    margin-bottom: 32px;
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+}
+
+.titulo-vaga{
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.ch-salario{
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--azul-clarinho);
+    display: flex;
+}
+
+.vaga{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border: 1px solid #EAECF0;
+    padding: 24px;
+    width: 768px;
+
 }
