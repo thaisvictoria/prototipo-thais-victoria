@@ -9,6 +9,11 @@
     --azul-clarinho: #667085;
     --azul-maisescuro: #3A404E;
     --vermelho: #8E2424;
+    --fonte-principal: 'Inter', sans-serif;
+    --weigth-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
 }
 
 li{
@@ -23,6 +28,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .navbar{
@@ -39,7 +45,7 @@ main{
 
 .nome{
     color: var(--azul-maisescuro);
-    font-weight: 500;
+    font-weight: var(--weight-medium);
     font-size: 18px;
 }
 
@@ -53,8 +59,8 @@ header{
 
 .titulos-nav a{
     color: var(--azul-clarinho);
-    font-weight: 500;
-    font-family: 'inter', sans-serif;
+    font-weight: var(--weight-medium);
+    font-family: var(--fonte-principal);
 }
 
 #cadastro{
@@ -68,31 +74,39 @@ header{
     display: flex;
     align-items: center;
     gap: 20px;
-    font-family: 'inter', sans-serif;
-    font-weight: medium;
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-medium);
 }
 
 #login{
     color: var(--azul-clarinho);
 }
 
-.titulo-sobre{
-    color: var(--vermelho);
-    font-family: 'inter', sans-serif;
-    font-weight: 'SemiBold';
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 
 }
 
 .titulo-sobre{
-    font-family: 'inter', sans-serif;
-    font-weight: 600;
+    color: var(--vermelho);
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-semibold);
+
+}
+
+.titulo-sobre{
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-semibold);
     margin-top: 61px;
 }
 
 .titulo-pag{
     font-size: 48px;
-    font-weight: 600;
-    font-family: 'inter', sans-serif;
+    font-weight: var(--weight-semibold);
+    font-family: var(--fonte-principal);
 }
 
 .paragrafo-titulo{
@@ -106,18 +120,10 @@ header{
  
 }
 
-.principal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-
-}
 
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-content: center;
     gap: 32px;
 
 
@@ -126,22 +132,22 @@ header{
 .num-grid{
     font-size: 60px;
     color: var(--vermelho);
-    font-weight: 600;
-    font-family: 'inter', sans-serif;
+    font-weight: var(--weight-semibold);
+    font-family: var(--fonte-principal);
     margin-bottom: 12px;
     font-style: normal;
 }
 
 .text-grid{
-    font-family: 'inter', sans-serif;
-    font-weight: medium;
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-medium);
     font-size: 18px;
     margin-bottom: 8px;
     font-style: normal;
 }
 
 .p-grid{
-    font-family: 'inter', sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 16px;
     color: var(--azul-clarinho);
@@ -171,8 +177,8 @@ header{
     align-items: center;
     justify-content: center;
     color: var(--vermelho);
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-medium);
     font-size: 14px;
     border-radius: 100px;
     margin-top: 96px;
@@ -180,14 +186,14 @@ header{
 }
 
 .search-talent{
-    font-family: 'inter', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 36px;
-    font-weight: 600;
+    font-weight: var(--weight-semibold);
 
 }
 
 .sub-title-vagas{
-    font-family: 'inter', sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 400;
     color: var(--azul-clarinho);
     font-size: 20px;
@@ -205,30 +211,27 @@ header{
     align-items: center;
     justify-content: center;
     margin-bottom: 96px;
-}
-
-.vagas{
     margin-top: 64px;
 
 }
 
 .tipo-vaga{
     margin-bottom: 32px;
-    font-family: 'inter', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: var(--weight-medium);
 }
 
 .titulo-vaga{
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-medium);
     font-size: 18px;
     cursor: pointer;
 }
 
 .ch-salario{
-    font-family: 'inter', sans-serif;
-    font-weight: 500;
+    font-family: var(--fonte-principal);
+    font-weight: var(--weight-medium);
     font-size: 16px;
     color: var(--azul-clarinho);
     display: flex;
@@ -267,14 +270,14 @@ header{
 
 .see-colab{
     color: var(--vermelho);
-    font-weight: 600;
+    font-weight: var(--weight-semibold);
     font-size: 14px;
     margin-bottom: 16px;
 
 }
 
 .text-colab{
-    font-weight: 500;
+    font-weight: var(--weight-medium);
     font-size: 31px;
     text-align: center;
     margin-bottom: 32px;
@@ -296,24 +299,24 @@ header{
 }
 
 .nome-dev{
-    font-weight: 500;
+    font-weight: var(--weight-medium);
     font-size: 16px;
 }
 
 .devweb{
-    font-weight: 400;
+    font-weight: var(--weigth-regular);
     color: var(--azul-clarinho);
 }
 
 .titulo-inscrever{
-    font-weight: 600;
+    font-weight: var(--weight-semibold);
     font-size: 36px;
     margin-bottom: 20px;
     color: #101828;
 }
 
 .subtitulo-inscrever{
-    font-family: 400;
+    font-family: var(--weigth-regular);
     color: var(--azul-clarinho);
     font-size: 20px;
     margin-bottom: 40px;
@@ -345,13 +348,13 @@ header{
     color: white;
     border: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--weight-medium);
     cursor: pointer;
 }
 
 .direitos{
     color: var(--azul-clarinho);
-    font-weight: 400;
+    font-weight: var(--weigth-regular);
     font-size: 16px;
 }
 
